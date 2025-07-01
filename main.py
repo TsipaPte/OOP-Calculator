@@ -13,7 +13,7 @@ class Calculator:
         except decimal.InvalidOperation:
             return "[errno] Ошибка в значениях"
         except IndexError:
-            return f"[errno] Ошибка длины"
+            return "[errno] Ошибка длины"
         except Exception as e:
             return f"[errno] Неизвестная ошибка. Если вы её видите, то сообщите разработчику. Ошибка: {e}"
 
